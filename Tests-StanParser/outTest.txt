@@ -1,0 +1,103 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP like)
+      (NP (NN cake)))
+    (. .)))
+
+nsubj(like-2, I-1)
+root(ROOT-0, like-2)
+dobj(like-2, cake-3)
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ goes)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN cinema))
+          (PP (IN with)
+            (NP (PRP$ her) (NN mother))))))
+    (. .)))
+
+nsubj(goes-2, She-1)
+root(ROOT-0, goes-2)
+det(cinema-5, the-4)
+prep_to(goes-2, cinema-5)
+poss(mother-8, her-7)
+prep_with(cinema-5, mother-8)
+
+(ROOT
+  (S
+    (NP (DT The) (NN street))
+    (VP (VBZ is) (RB not)
+      (ADJP (JJ big))
+      (ADVP (RB enough)
+        (PP (IN for)
+          (NP (DT both) (NNS cars)))))
+    (. .)))
+
+det(street-2, The-1)
+nsubj(big-5, street-2)
+cop(big-5, is-3)
+neg(big-5, not-4)
+root(ROOT-0, big-5)
+advmod(big-5, enough-6)
+det(cars-9, both-8)
+prep_for(enough-6, cars-9)
+
+(ROOT
+  (S
+    (NP (DT The) (NN water))
+    (VP (VBZ is)
+      (ADJP (JJ blue)
+        (PP (IN as)
+          (NP (DT the) (NN sky)))))
+    (. .)))
+
+det(water-2, The-1)
+nsubj(blue-4, water-2)
+cop(blue-4, is-3)
+root(ROOT-0, blue-4)
+det(sky-7, the-6)
+prep_as(blue-4, sky-7)
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP go)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN mensa))
+          (PP (IN at)
+            (NP (CD 1pm))))))
+    (. .)))
+
+nsubj(go-2, We-1)
+root(ROOT-0, go-2)
+det(mensa-5, the-4)
+prep_to(go-2, mensa-5)
+prep_at(mensa-5, 1pm-7)
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD saw)
+      (NP
+        (NP (DT the) (NN man))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD killed)
+              (NP (DT the) (NN dog)))))))
+    (. .)))
+
+nsubj(saw-2, I-1)
+root(ROOT-0, saw-2)
+det(man-4, the-3)
+dobj(saw-2, man-4)
+nsubj(killed-6, man-4)
+rcmod(man-4, killed-6)
+det(dog-8, the-7)
+dobj(killed-6, dog-8)
+
